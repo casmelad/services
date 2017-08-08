@@ -39,7 +39,7 @@
       "PhoneNumber": "123131231312321"
     }
   ]
-}
+},
   "Login": {
     "Person": {"FirstName":"Alejandro","LastName":"Perez"}, "PropertiesNames": ["Villa Magna Residencial","Best Day"],"Token":"qwerty" 
   }
