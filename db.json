@@ -1,64 +1,45 @@
 {
   "Test": { "Person": {"FirstName":"Alejandro","LastName":"Perez"}, "PropertiesNames": ["Villa Magna Residencial","Best Day"],"Token":"qwerty" }
   ,
-  "GetListVisit": 
+ "GetPropertyById":{
+  "Name": "Residencial las villas",
+  "Type": "Residencial",
+  "Colony": "El chopo",
+  "Municipality": "Chicago 007",
+  "City": "Infernal 666",
+  "FiscalCode": "Bla Bla Bla 123",
+  "FiscalName": "Los angeles 223, 9989",
+  "BankAccountNumber": "91291431234939213",
+  "BankDataOwnerName": "91291431234939213",
+  "BankCardNumber": "91291431234939213",
+  "BankCardExpirationMonth": "09",
+  "BankCardExpirationYear": "2021",
+  "ZipCode": "97800",
+  "State": {
+    "Id": 123,
+    "Name": "Nuevo Leon"
+  },
+  "Country": {
+    "Id": 9292,
+    "Name": "Mexico"
+  },
+  "Bank": {
+    "Id": "922",
+    "Name": "Santander"
+  },
+  "Location": {
+    "Latitude": 123133323,
+    "Longitude": -232.1231313
+  },
+  "Contacts": [
     {
-	"Visits": [
-		{
-			"IdVisit": "123",
-			"PropertyName": "villa magna departameto 1",
-			"Person": {
-				"FistName": "Alejandro",
-				"LastName": "Perez"
-			},
-			"Reason": {
-				"WorkIn": true,
-				"Job": "niñera",
-				"Business": "Go Nanny"
-			},
-			"Time": {
-				"InHouse": true,
-				"ScheduledTime": {
-					"AnyTime": true,
-					"In": "2017/10/12 08:00:00",
-					"Out": "2017/10/12 08:00:00"
-				},
-				"RealTime": {
-					"AnyTime": false,
-					"In": "2017/10/12 08:00:00",
-					"Out": "2017/10/12 08:00:00"
-				}
-			}
-		},
-		{
-			"IdVisit": "123",
-			"PropertyName": "Best Day torre A piso 1 tecnologia",
-			"Person": {
-				"FistName": "Alejandro",
-				"LastName": "Perez"
-			},
-			"Reason": {
-				"WorkIn": true,
-				"Job": "niñera",
-				"Business": "Go Nanny"
-			},
-			"Time": {
-				"InHouse": true,
-				"ScheduledTime": {
-					"AnyTime": true,
-					"In": "2017/10/12 08:00:00",
-					"Out": "2017/10/12 08:00:00"
-				},
-				"RealTime": {
-					"AnyTime": false,
-					"In": "2017/10/12 08:00:00",
-					"Out": "2017/10/12 08:00:00"
-				}
-			}
-		}
-	]
+      "Name": "Test Contact",
+      "Type": "Administrador XXX",
+      "EMail": "admin@admin@admin.com",
+      "PhoneNumber": "123131231312321"
+    }
+  ]
 }
-  ,
   "Login": {
     "Person": {"FirstName":"Alejandro","LastName":"Perez"}, "PropertiesNames": ["Villa Magna Residencial","Best Day"],"Token":"qwerty" 
   }
