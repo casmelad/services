@@ -1,46 +1,50 @@
 {
-  "Test": { "Person": {"FirstName":"Alejandro","LastName":"Perez"}, "PropertiesNames": ["Villa Magna Residencial","Best Day"],"Token":"qwerty" }
-  ,
- "GetPropertyById":{
-  "Name": "Residencial las villas",
-  "Type": "Residencial",
-  "Colony": "El chopo",
-  "Municipality": "Chicago 007",
-  "City": "Infernal 666",
-  "FiscalCode": "Bla Bla Bla 123",
-  "FiscalName": "Los angeles 223, 9989",
-  "BankAccountNumber": "91291431234939213",
-  "BankDataOwnerName": "91291431234939213",
-  "BankCardNumber": "91291431234939213",
-  "BankCardExpirationMonth": "09",
-  "BankCardExpirationYear": "2021",
-  "ZipCode": "97800",
-  "State": {
-    "Id": 123,
-    "Name": "Nuevo Leon"
+  "Save": {
+    "response": "OK"
   },
-  "Country": {
-    "Id": 9292,
-    "Name": "Mexico"
+  "GetById": {
+    "Name": "Residencial las villas",
+    "Type": "Residencial",
+    "Colony": "El chopo",
+    "Municipality": "Chicago 007",
+    "City": "Infernal 666",
+    "FiscalCode": "Bla Bla Bla 123",
+    "FiscalName": "Los angeles 223, 9989",
+    "BankAccountNumber": "91291431234939213",
+    "BankDataOwnerName": "91291431234939213",
+    "BankCardNumber": "91291431234939213",
+    "BankCardExpirationMonth": "09",
+    "BankCardExpirationYear": "2021",
+    "ZipCode": "97800",
+    "State": {
+      "Id": 123,
+      "Name": "Nuevo Leon"
+    },
+    "Country": {
+      "Id": 9292,
+      "Name": "Mexico"
+    },
+    "Bank": {
+      "Id": "922",
+      "Name": "Santander"
+    },
+    "Location": {
+      "Latitude": 123133323,
+      "Longitude": -232.1231313
+    },
+    "Contacts": [
+      {
+        "Name": "Test Contact",
+        "Type": "Administrador XXX",
+        "EMail": "admin@admin@admin.com",
+        "PhoneNumber": "123131231312321"
+      }
+    ]
   },
-  "Bank": {
-    "Id": "922",
-    "Name": "Santander"
+  "Update": {
+    "response": "OK"
   },
-  "Location": {
-    "Latitude": 123133323,
-    "Longitude": -232.1231313
-  },
-  "Contacts": [
-    {
-      "Name": "Test Contact",
-      "Type": "Administrador XXX",
-      "EMail": "admin@admin@admin.com",
-      "PhoneNumber": "123131231312321"
-    }
-  ]
-},
-  "Login": {
-    "Person": {"FirstName":"Alejandro","LastName":"Perez"}, "PropertiesNames": ["Villa Magna Residencial","Best Day"],"Token":"qwerty" 
+  "ChangeStatus": {
+    "response": "OK"
   }
 }
