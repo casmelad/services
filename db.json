@@ -28,10 +28,24 @@
       "Id": "922",
       "Name": "Santander"
     },
-    "Location": {
+    "Location": [
+    {
       "Latitude": 123133323,
       "Longitude": -232.1231313
     },
+    {
+      "Latitude": 123133323,
+      "Longitude": -232.1231313
+    },
+    {
+      "Latitude": 123133323,
+      "Longitude": -232.1231313
+    },
+    {
+      "Latitude": 123133323,
+      "Longitude": -232.1231313
+    }
+  ],
     "Contacts": [
       {
         "Name": "Test Contact",
