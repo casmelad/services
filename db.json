@@ -3,6 +3,7 @@
     "response": "OK"
   },
   "GetById": {
+    
     "Name": "Residencial las villas",
     "Type": "Residential",
     "Colony": "El chopo",
