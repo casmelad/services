@@ -30,23 +30,23 @@
       "Name": "Santander"
     },
     "Location": [
-    {
-      "Latitude": 123133323,
-      "Longitude": -232.1231313
-    },
-    {
-      "Latitude": 123133323,
-      "Longitude": -232.1231313
-    },
-    {
-      "Latitude": 123133323,
-      "Longitude": -232.1231313
-    },
-    {
-      "Latitude": 123133323,
-      "Longitude": -232.1231313
-    }
-  ],
+      {
+        "latitude": 22.201310731045666,
+        "longitude": -97.82962185137876
+      },
+      {
+        "latitude": 22.200694857594204,
+        "longitude": -97.82616716616758
+      },
+      {
+        "latitude": 22.195449890346694,
+        "longitude": -97.82526594393858
+      },
+      {
+        "latitude": 22.195986316445342,
+        "longitude": -97.83015829318174
+      }
+    ],
     "Contacts": [
       {
         "Name": "Test Contact",
