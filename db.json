@@ -4,7 +4,7 @@
   },
   "GetById": {
     "Name": "Residencial las villas",
-    "Type": "Residencial",
+    "Type": "Residential",
     "Colony": "El chopo",
     "Municipality": "Chicago 007",
     "City": "Infernal 666",
